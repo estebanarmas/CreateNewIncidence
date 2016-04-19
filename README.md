@@ -2,6 +2,8 @@
 Aplicación desarrollada para la creacion de nuevas incidencias sobre un servicio en ArcGIS online.
 La aplicación esta desarrollada sobre la plantilla de aplicaciones Geoform de ESRI, que acontinuacion se deja su descripción y enlaces.
 
+En esta version la plantilla original fue modificada para que el atributo especifico de "Estado" que posean los features del servicio utilizado sea oculto y automaticamente colocado el valor de "INICIADO", ese cambio se encuentra en el fichero ../js/main.js a partir de la linea 869. De acuerdo a las necesidades que se desee cubrir con esta plantilla y el servicio que se utilizara, es importante verificar los campos que se deseen visualizar y autorrellenar.
+
 # geoform-template-js
 
 ![App](http://esri.github.io/geoform-template-js/images/item.png)
