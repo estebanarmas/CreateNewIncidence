@@ -2520,7 +2520,7 @@ define([
       if (this.config.enableSharing) {
         domConstruct.create("h3", {
           innerHTML: nls.user.shareThisForm
-        }, iconContainer);/*
+        }, iconContainer);
         domConstruct.create("p", {
           innerHTML: nls.user.shareUserTextMessage
         }, iconContainer);
@@ -2538,7 +2538,7 @@ define([
           "tabindex": "0",
           className: "fa fa-google-plus-square iconClass text-primary",
           id: "google-plusIcon"
-        }, iconContainer);*/
+        }, iconContainer);
       }
       domConstruct.create("a", {
         "tabindex": "0",
